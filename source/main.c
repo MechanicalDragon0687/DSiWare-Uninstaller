@@ -10,7 +10,7 @@ PrintConsole topScreen, bottomScreen;
 AM_TWLPartitionInfo info;
 #define DUMP_ALL true
 #define SYSTEM_APP_COUNT 6
-u64 systemApps[SYSTEM_APP_COUNT] = { 
+static u64 systemApps[SYSTEM_APP_COUNT] = { 
 					 0x00048005484E4441,
 					 0x0004800542383841,
 					 0x0004800F484E4841,
